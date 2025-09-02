@@ -16,7 +16,7 @@ export default function NoteEditor({ note, onSave, onDelete }) {
     setContent(note?.content || '');
     setTags((note?.tags || []).join(', '));
     setFolder(note?.folder || '');
-  }, [note?.id]);
+  }, [note?.id, note?.title, note?.content, note?.tags, note?.folder]);
 
   const handleSave = () => {
     const payload = {

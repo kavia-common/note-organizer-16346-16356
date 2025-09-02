@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Layout, { SidebarNav, TopbarControls } from '../components/Layout';
 import NoteList from '../components/NoteList';
 import NoteEditor from '../components/NoteEditor';
